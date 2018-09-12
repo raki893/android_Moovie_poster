@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="220dp"
+            android:id="@+id/lay_iv"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:text="Name"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/lay_iv"
+            android:textSize="27sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rd"
+            android:text="Release Date"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/lay_iv"
+            android:layout_below="@id/tv_name"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_income"
+            android:text="Total Income"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/lay_iv"
+            android:layout_below="@id/tv_rd"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cast"
+            android:text="Cast :"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/lay_iv"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_description"
+            android:text="Description :"
+            android:layout_marginTop="1dp"
+            android:layout_below="@id/tv_cast"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
